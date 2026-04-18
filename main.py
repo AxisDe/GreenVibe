@@ -46,52 +46,119 @@ ASSETS_DIR = os.path.join(os.path.dirname(__file__), "assets")
 #  COLOUR PALETTES
 # ─────────────────────────────────────────────────────────────────────────────
 
+# ==== IMPROVED DARK THEMES (BETTER CONTRAST + OLED SAFE) ====
+
 PALETTES = {
-    "Forest Dark": {
-        "bg":       "#080E0C",
-        "panel":    "#0E1814",
-        "card":     "#14221C",
-        "accent":   "#39D353",
-        "accent2":  "#00B4D8",
-        "text":     "#DCF0E4",
-        "dim":      "#78A082",
-        "danger":   "#F85149",
-        "warning":  "#E3B341",
-        "border":   "#284637",
-        "tag_a":    "#14592D",
-        "tag_b":    "#003C5A",
-        "tag_c":    "#501400",
-    },
+
+
     "Deep Ocean": {
-        "bg":       "#050A14",
-        "panel":    "#0A1226",
-        "card":     "#101C37",
-        "accent":   "#00B4D8",
-        "accent2":  "#39D353",
-        "text":     "#D2E4F8",
-        "dim":      "#648CB4",
-        "danger":   "#FF5050",
-        "warning":  "#FFC83C",
-        "border":   "#1E3764",
-        "tag_a":    "#004664",
-        "tag_b":    "#145A28",
-        "tag_c":    "#641E00",
+        "bg":       "#030814",
+        "panel":    "#081225",
+        "card":     "#0F1F3D",
+
+        "accent":   "#00D4FF",
+        "accent2":  "#3EE67A",
+
+        "text":     "#EAF4FF",
+        "dim":      "#8AAED1",
+
+        "danger":   "#FF6B6B",
+        "warning":  "#FFD166",
+
+        "border":   "#1B3A6B",
+
+        "tag_a":    "#006D8F",
+        "tag_b":    "#1F7A4C",
+        "tag_c":    "#7A2E0A",
     },
+
+
     "Midnight Purple": {
-        "bg":       "#0A0614",
-        "panel":    "#120C24",
-        "card":     "#1C1437",
-        "accent":   "#A064FF",
-        "accent2":  "#39D353",
-        "text":     "#E1D7F8",
-        "dim":      "#826EAA",
-        "danger":   "#FF5050",
-        "warning":  "#FFC83C",
-        "border":   "#37285A",
-        "tag_a":    "#50288C",
-        "tag_b":    "#145A28",
-        "tag_c":    "#781E00",
+        "bg":       "#070414",
+        "panel":    "#110A26",
+        "card":     "#1A123A",
+
+        "accent":   "#B388FF",   # softer but visible purple
+        "accent2":  "#3EE67A",
+
+        "text":     "#F1E9FF",
+        "dim":      "#A79BCF",
+
+        "danger":   "#FF6B6B",
+        "warning":  "#FFD166",
+
+        "border":   "#2C1F52",
+
+        "tag_a":    "#6A3ECF",
+        "tag_b":    "#1F7A4C",
+        "tag_c":    "#7A2E0A",
     },
+
+     "Forest Premium": {
+        "bg":       "#0B1411",
+        "panel":    "#12201B",
+        "card":     "#1A2C24",
+
+        "accent":   "#4CFF88",
+        "accent2":  "#2ED8FF",
+
+        "text":     "#F4FFF9",   # very sharp
+        "dim":      "#9BC9B2",
+
+        "danger":   "#FF7A7A",
+        "warning":  "#FFE08A",
+
+        "border":   "#2A463A",
+
+        "tag_a":    "#2F8F5B",
+        "tag_b":    "#007C99",
+        "tag_c":    "#8B3A1A",
+    },
+
+
+    "Ocean Premium": {
+        "bg":       "#0A1424",
+        "panel":    "#14233A",
+        "card":     "#1C2F4F",
+
+        "accent":   "#2ED8FF",
+        "accent2":  "#4CFF88",
+
+        "text":     "#F2F7FF",
+        "dim":      "#A5C0DE",
+
+        "danger":   "#FF7A7A",
+        "warning":  "#FFE08A",
+
+        "border":   "#2C4A75",
+
+        "tag_a":    "#008FB3",
+        "tag_b":    "#2F8F5B",
+        "tag_c":    "#8B3A1A",
+    },
+
+
+    "Purple Premium": {
+        "bg":       "#0F0A1F",
+        "panel":    "#1A1233",
+        "card":     "#241A45",
+
+        "accent":   "#C299FF",
+        "accent2":  "#4CFF88",
+
+        "text":     "#F6F0FF",
+        "dim":      "#B9A9E6",
+
+        "danger":   "#FF7A7A",
+        "warning":  "#FFE08A",
+
+        "border":   "#3A2C66",
+
+        "tag_a":    "#7C5CFF",
+        "tag_b":    "#2F8F5B",
+        "tag_c":    "#8B3A1A",
+    },
+
     "Light Garden": {
         "bg":       "#F0F8F0",
         "panel":    "#DCEEDF",
@@ -107,6 +174,140 @@ PALETTES = {
         "tag_b":    "#0064A0",
         "tag_c":    "#A05000",
     },
+ 
+
+#Light themes from here
+
+    "Soft Sky": {
+        "bg":       "#F3F7FF",
+        "panel":    "#E3ECFF",
+        "card":     "#FFFFFF",
+
+        "accent":   "#3B82F6",
+        "accent2":  "#22C55E",
+
+        "text":     "#0F172A",
+        "dim":      "#64748B",
+
+        "danger":   "#DC2626",
+        "warning":  "#D97706",
+
+        "border":   "#CBD5F5",
+
+        "tag_a":    "#3B82F6",
+        "tag_b":    "#22C55E",
+        "tag_c":    "#D97706",
+    },
+
+    "Lavender Light": {
+        "bg":       "#F7F5FF",
+        "panel":    "#E8E3FF",
+        "card":     "#FFFFFF",
+
+        "accent":   "#8B5CF6",
+        "accent2":  "#22C55E",
+
+        "text":     "#1E1B2E",
+        "dim":      "#7C74A8",
+
+        "danger":   "#DC2626",
+        "warning":  "#F59E0B",
+
+        "border":   "#D6CCFF",
+
+        "tag_a":    "#8B5CF6",
+        "tag_b":    "#22C55E",
+        "tag_c":    "#F59E0B",
+    },
+
+
+    "Sunset Soft": {
+        "bg":       "#FFF8F0",
+        "panel":    "#FFEAD6",
+        "card":     "#FFFFFF",
+
+        "accent":   "#F97316",
+        "accent2":  "#EF4444",
+
+        "text":     "#2A1A0F",
+        "dim":      "#8C6A4F",
+
+        "danger":   "#DC2626",
+        "warning":  "#FACC15",
+
+        "border":   "#FFD8B5",
+
+        "tag_a":    "#F97316",
+        "tag_b":    "#EF4444",
+        "tag_c":    "#FACC15",
+    },
+
+
+    "Ice Blue": {
+        "bg":       "#F2FBFF",
+        "panel":    "#DFF3FF",
+        "card":     "#FFFFFF",
+
+        "accent":   "#0EA5E9",
+        "accent2":  "#10B981",
+
+        "text":     "#0F172A",
+        "dim":      "#5B7C99",
+
+        "danger":   "#DC2626",
+        "warning":  "#F59E0B",
+
+        "border":   "#BFE4FF",
+
+        "tag_a":    "#0EA5E9",
+        "tag_b":    "#10B981",
+        "tag_c":    "#F59E0B",
+    },
+
+
+    "Rose Light": {
+        "bg":       "#FFF5F7",
+        "panel":    "#FFE3EA",
+        "card":     "#FFFFFF",
+
+        "accent":   "#E11D48",
+        "accent2":  "#8B5CF6",
+
+        "text":     "#2A0F16",
+        "dim":      "#8C5A6B",
+
+        "danger":   "#B91C1C",
+        "warning":  "#F59E0B",
+
+        "border":   "#FFC2D1",
+
+        "tag_a":    "#E11D48",
+        "tag_b":    "#8B5CF6",
+        "tag_c":    "#F59E0B",
+    },
+
+
+    "Lime Fresh": {
+        "bg":       "#F7FFF2",
+        "panel":    "#E6FFD6",
+        "card":     "#FFFFFF",
+
+        "accent":   "#65A30D",
+        "accent2":  "#16A34A",
+
+        "text":     "#1A2B0F",
+        "dim":      "#6F8C4A",
+
+        "danger":   "#DC2626",
+        "warning":  "#EAB308",
+
+        "border":   "#D4F5A6",
+
+        "tag_a":    "#65A30D",
+        "tag_b":    "#16A34A",
+        "tag_c":    "#EAB308",
+    },
+
 }
 
 _theme_name = ["Light Garden"]
@@ -270,13 +471,36 @@ QScrollArea > QWidget > QWidget {{ background-color: transparent; }}
 QLabel {{ background-color: transparent; }}
 """
 
+def style_btn(btn, mode="ghost"):
+    if mode == "accent":
+        btn.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {C('accent')};
+                color: white;
+                border-radius: 10px;
+                padding: 8px;
+                border: none;
+                font-weight: 600;
+            }}
+            QPushButton:hover {{
+                background-color: {C('accent2')};
+            }}
+        """)
 
-def style_btn(btn, btntype="ghost"):
-    btn.setProperty("btntype", btntype)
-    btn.style().unpolish(btn)
-    btn.style().polish(btn)
-    return btn
-
+    elif mode == "ghost":
+        btn.setStyleSheet(f"""
+            QPushButton {{
+                background-color: {C('card')};
+                color: {C('text')};
+                border: 2px solid {C('border')};
+                border-radius: 10px;
+                padding: 8px;
+            }}
+            QPushButton:hover {{
+                border: 2px solid {C('accent')};
+                background-color: {C('panel')};
+            }}
+        """)
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  HELPERS
@@ -691,7 +915,7 @@ class SettingsDialog(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("⚙  Settings")
-        self.setFixedSize(500, 320)
+        self.setFixedSize(800, 500)  #setting_size
         self.setStyleSheet(build_stylesheet())
         self._setup()
 
